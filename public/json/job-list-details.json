@@ -1,0 +1,60 @@
+{
+  "jobListDetails": [
+    {
+      "company": {
+        "jobTitle": "Desenvolvedor Front-end Sr",
+        "name": "MedTec",
+        "id": 1,
+        "logo": "assets/images/medtec-logo.png",
+        "description": "A MedTec é um empresa que aposta em soluções simples e eficientes, que tragam resultados para os clientes. Buscamos sempre inovar e criar funcionalidades que facilitem a vida dos usuários.",
+        "jobDescription": "Você irá trabalho com um time de desenvolvedores em busca de solução criativas e inspiradoras. Deverá realizar testes e você deve ser proficiente em tecnologias Javascript, ReactJS , Jquery e também experiência front-end usando HTML5 e CSS 3 . Seu foco principal será o desenvolvimento de componentes de interface do usuário usando o React.",
+        "jobRequirements": "Ter habilidades com Javascript, HTML, CSS, ReactJS. Saber criar e rodar testes unidade, analisar códigos e encontrar possivés problemas.",
+        "benefits": "Salário a combinar, Gympass, VR, plano de saúde, curso de inglês."
+      },
+      "location": "São Paulo, São Paulo",
+      "jobType": "PJ | Remoto"
+    },
+    {
+      "company": {
+        "jobTitle": "Desenvolvedor back-end Pl",
+        "name": "DevSer",
+        "id": 2,
+        "logo": "assets/images/devser-logo.png",
+        "description": "A DevSer é um empresa que aposta em soluções simples e eficientes, que tragam resultados para os clientes. Buscamos sempre inovar e criar funcionalidades que facilitem a vida dos usuários.",
+        "jobDescription": "Você irá trabalho com um time de desenvolvedores em busca de solução criativas e inspiradoras. Deverá realizar testes e você deve ser proficiente em tecnologias Javascript, ReactJS , Jquery e também experiência front-end usando HTML5 e CSS 3 . Seu foco principal será o desenvolvimento de componentes de interface do usuário usando o React.",
+        "jobRequirements": "Ter habilidades com Javascript, HTML, CSS, ReactJS. Saber criar e rodar testes unidade, analisar códigos e encontrar possivés problemas.",
+        "benefits": "Salário a combinar, Gympass, VR, plano de saúde, curso de inglês."
+      },
+      "location": "Aracaju, Sergipe",
+      "jobType": "CLT | Presencial"
+    },
+    {
+      "company": {
+        "jobTitle": "Desenvolvedor Full-stack Sr",
+        "name": "MainServ",
+        "id": 3,
+        "logo": "assets/images/mainserv-logo.png",
+        "description": "A MainServ é um empresa que aposta em soluções simples e eficientes, que tragam resultados para os clientes. Buscamos sempre inovar e criar funcionalidades que facilitem a vida dos usuários.",
+        "jobDescription": "Você irá trabalho com um time de desenvolvedores em busca de solução criativas e inspiradoras. Deverá realizar testes e você deve ser proficiente em tecnologias Javascript, ReactJS , Jquery e também experiência front-end usando HTML5 e CSS 3 . Seu foco principal será o desenvolvimento de componentes de interface do usuário usando o React.",
+        "jobRequirements": "Ter habilidades com Javascript, HTML, CSS, ReactJS. Saber criar e rodar testes unidade, analisar códigos e encontrar possivés problemas.",
+        "benefits": "Salário a combinar, Gympass, VR, plano de saúde, curso de inglês."
+      },
+      "location": "Salvador, Bahia",
+      "jobType": "CLT | Remoto"
+    },
+    {
+      "company": {
+        "jobTitle": "Desenvolvedor Front-end Jr",
+        "name": "Mobile Solutions",
+        "id": 4,
+        "logo": "assets/images/mobileSolutions-logo.png",
+        "description": "A Mobile Solutions é um empresa que aposta em soluções simples e eficientes, que tragam resultados para os clientes. Buscamos sempre inovar e criar funcionalidades que facilitem a vida dos usuários.",
+        "jobDescription": "Você irá trabalho com um time de desenvolvedores em busca de solução criativas e inspiradoras. Deverá realizar testes e você deve ser proficiente em tecnologias Javascript, ReactJS , Jquery e também experiência front-end usando HTML5 e CSS 3 . Seu foco principal será o desenvolvimento de componentes de interface do usuário usando o React.",
+        "jobRequirements": "Ter habilidades com Javascript, HTML, CSS, ReactJS. Saber criar e rodar testes unidade, analisar códigos e encontrar possivés problemas.",
+        "benefits": "Salário a combinar, Gympass, VR, plano de saúde, curso de inglês."
+      },
+      "location": "Curitba, Paraná",
+      "jobType": "CLT | Remoto"
+    }
+  ]
+}
