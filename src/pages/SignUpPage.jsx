@@ -6,9 +6,7 @@ import { JobItem } from "../components/job-item/JobItem";
 import { Button } from "../components/buttons/button-default/Button";
 
 async function getJobList() {
-  const response = await fetch(
-    "http://localhost:3000/json/job-list-details.json"
-  );
+  const response = await fetch("/json/job-list-details.json");
   return await response.json();
 }
 
