@@ -5,12 +5,22 @@ import medtecLogo from "../../assets/images/medtec-logo.png";
 import devserLogo from "../../assets/images/devser-logo.png";
 import mainservLogo from "../../assets/images/mainserv-logo.png";
 import mobileSolutionsLogo from "../../assets/images/mobileSolutions-logo.png";
+import boobleLogo from "../../assets/images/booble-logo.png";
+import borcelleLogo from "../../assets/images/borcelle-logo.png";
+import hanoverLogo from "../../assets/images/hanover-logo.png";
+import shoppingLogo from "../../assets/images/shopping-logo.png";
+import timmermanLogo from "../../assets/images/timmer-logo.png";
 
 const logos = {
   MedTec: medtecLogo,
   DevSer: devserLogo,
   MainServ: mainservLogo,
   "Mobile Solutions": mobileSolutionsLogo,
+  "Booble Inc.": boobleLogo,
+  "Borcelle Tech": borcelleLogo,
+  "Hanover Tecnologia": hanoverLogo,
+  "Shopping Online": shoppingLogo,
+  "Indústrias Timmerman": timmermanLogo,
 };
 
 export const JobDetails = ({ company }) => {

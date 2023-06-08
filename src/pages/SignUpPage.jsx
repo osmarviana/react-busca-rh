@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { SearchForm } from "../components/search-form/SearchForm";
 import { JobItem } from "../components/job-item/JobItem";
 import { Button } from "../components/buttons/button-default/Button";
+import { GrCircleAlert } from "react-icons/gr";
 
 async function getJobList() {
   const response = await fetch("/json/job-list-details.json");
@@ -14,6 +15,14 @@ export const SignUpPage = () => {
   const { theme } = useContext(ThemeContext);
 
   const [joblist, setJoblist] = useState([]);
+  const [visibleJobs, setVisibleJobs] = useState(5);
+
+  const loadMoreJobs = () => {
+    const newVisibleJobs = visibleJobs + 5;
+    setVisibleJobs(newVisibleJobs);
+  };
+
+  const hasMoreJobs = visibleJobs < joblist.length;
 
   useEffect(() => {
     async function fetchData() {
@@ -33,11 +42,10 @@ export const SignUpPage = () => {
 
         <JobSection id="lastjobs-container" theme={theme}>
           <h2>Últimas vagas lançadas</h2>
-
           <Accordion id="accordion" theme={theme}>
             <nav>
               <ul>
-                {joblist.map((job, index) => (
+                {joblist.slice(0, visibleJobs).map((job, index) => (
                   <li key={index}>
                     <JobItem
                       company={job.company}
@@ -51,7 +59,14 @@ export const SignUpPage = () => {
             </nav>
           </Accordion>
           <MoreJobsButton theme={theme}>
-            <Button label="+ Vagas" />
+            {hasMoreJobs ? (
+              <Button label="+ Vagas" onClick={loadMoreJobs} />
+            ) : (
+              <p>
+                <StyledCircleAlert theme={theme} />
+                Todas as vagas foram carregadas.
+              </p>
+            )}
           </MoreJobsButton>
         </JobSection>
       </Container>
@@ -98,4 +113,18 @@ const MoreJobsButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  & p {
+    font-size: 14px;
+    color: ${(props) => props.theme.error};
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+`;
+
+const StyledCircleAlert = styled(GrCircleAlert)`
+  & path {
+    stroke: ${(props) => props.theme.error};
+  }
 `;

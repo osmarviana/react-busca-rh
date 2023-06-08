@@ -20,7 +20,7 @@ export const JobItem = ({ company, location, jobType, theme }) => {
           </CompanyInfo>
         </CompanyBox>
         <CompanyLocation theme={theme}>
-          <MdPinDrop />
+          <StyledPinDrop theme={theme} />
           <p>{location}</p>
         </CompanyLocation>
         <JobType theme={theme}>
@@ -80,12 +80,16 @@ const CompanyLocation = styled.div`
   justify-content: center;
   & p {
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: 5px;
     color: ${(props) => props.theme.secondaryText};
   }
   @media (max-width: 425px) {
     width: 100%;
   }
+`;
+
+const StyledPinDrop = styled(MdPinDrop)`
+  color: ${(props) => props.theme.primaryText};
 `;
 
 const JobType = styled.div`
@@ -96,7 +100,7 @@ const JobType = styled.div`
   & span {
     font-size: 15px;
     font-weight: 500;
-    color: ${(props) => props.theme.secondaryText};
+    color: ${(props) => props.theme.primaryText};
   }
   @media (max-width: 425px) {
     width: 100%;

@@ -2,17 +2,14 @@ import React, { useContext } from "react";
 import styled from "styled-components";
 import { ThemeContext } from "../../../context/theme-context";
 
-export const Button = (props) => {
+export const Button = ({ label, onClick }) => {
   const { theme } = useContext(ThemeContext);
   return (
-    <>
-      <div>
-        <ButtonDefault theme={theme}>{props.label}</ButtonDefault>
-      </div>
-    </>
+    <ButtonDefault theme={theme} onClick={onClick}>
+      {label}
+    </ButtonDefault>
   );
 };
-
 
 const ButtonDefault = styled.button`
   padding: 10px 30px;

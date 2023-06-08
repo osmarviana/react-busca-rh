@@ -53,8 +53,92 @@
         "jobRequirements": "Ter habilidades com Javascript, HTML, CSS, ReactJS. Saber criar e rodar testes unidade, analisar códigos e encontrar possivés problemas.",
         "benefits": "Salário a combinar, Gympass, VR, plano de saúde, curso de inglês."
       },
-      "location": "Curitba, Paraná",
+      "location": "Curitiba, Paraná",
       "jobType": "CLT | Remoto"
+    },
+    {
+      "company": {
+        "jobTitle": "Software Engineer",
+        "name": "Mobile Solutions",
+        "id": 5,
+        "logo": "assets/images/mobileSolutions-logo.png",
+        "description": "A Mobile Solutions é um empresa que aposta em soluções simples e eficientes, que tragam resultados para os clientes. Buscamos sempre inovar e criar funcionalidades que facilitem a vida dos usuários.",
+        "jobDescription": "Desenvolvimento de software para smartphone, smartwatches e IoT. Construindo e validando a prova de conceito (POC) e o piloto para o cenário B2B. Pesquisar, analisar e desenvolver prova de conceito (POC) para validar novas idéias ou conceito de cenário B2B. Colaborar com a implantação e automação de testes de pesquisa de pesquisa.",
+        "jobRequirements": "Forte base na programação, algoritmos e computação em geral, bom conhecimento em Java e C/C ++, Conhecimento no desenvolvimento do Android, Conhecimento em fundamentos do banco de dados, Conhecimento em Fundamentos de Redes, inglês avançado.",
+        "benefits": "Salário a combinar, Horário flexível, VR, plano de saúde."
+      },
+      "location": "Curitiba, Paraná",
+      "jobType": "CLT | Remoto"
+    },
+    {
+      "company": {
+        "jobTitle": "Software Engineer",
+        "name": "Booble Inc.",
+        "id": 6,
+        "logo": "assets/images/booble-logo.png",
+        "description": "A Booble Inc é um empresa que aposta em soluções simples e eficientes, que tragam resultados para os clientes. Buscamos sempre inovar e criar funcionalidades que facilitem a vida dos usuários.",
+        "jobDescription": "Desenvolvimento de software para smartphone, smartwatches e IoT. Construindo e validando a prova de conceito (POC) e o piloto para o cenário B2B. Pesquisar, analisar e desenvolver prova de conceito (POC) para validar novas idéias ou conceito de cenário B2B. Colaborar com a implantação e automação de testes de pesquisa de pesquisa.",
+        "jobRequirements": "Forte base na programação, algoritmos e computação em geral, bom conhecimento em Java e C/C ++, Conhecimento no desenvolvimento do Android, Conhecimento em fundamentos do banco de dados, Conhecimento em Fundamentos de Redes, inglês avançado.",
+        "benefits": "Salário a combinar, Horário flexível, VR, plano de saúde."
+      },
+      "location": "Campinas, São Paulo",
+      "jobType": "CLT | Presencial"
+    },
+    {
+      "company": {
+        "jobTitle": "Software Engineer",
+        "name": "Borcelle Tech",
+        "id": 7,
+        "logo": "assets/images/borcelle-logo.png",
+        "description": "A Borcelle Tech é um empresa que aposta em soluções simples e eficientes, que tragam resultados para os clientes. Buscamos sempre inovar e criar funcionalidades que facilitem a vida dos usuários.",
+        "jobDescription": "Desenvolvimento de software para smartphone, smartwatches e IoT. Construindo e validando a prova de conceito (POC) e o piloto para o cenário B2B. Pesquisar, analisar e desenvolver prova de conceito (POC) para validar novas idéias ou conceito de cenário B2B. Colaborar com a implantação e automação de testes de pesquisa de pesquisa.",
+        "jobRequirements": "Forte base na programação, algoritmos e computação em geral, bom conhecimento em Java e C/C ++, Conhecimento no desenvolvimento do Android, Conhecimento em fundamentos do banco de dados, Conhecimento em Fundamentos de Redes, inglês avançado.",
+        "benefits": "Salário a combinar, Horário flexível, VR, plano de saúde."
+      },
+      "location": "Santo André, São Paulo",
+      "jobType": "CLT | Presencial"
+    },
+    {
+      "company": {
+        "jobTitle": "Estágio Desenvolvimento",
+        "name": "Hanover Tecnologia",
+        "id": 8,
+        "logo": "assets/images/hanover-logo.png",
+        "description": "Na Hanover Tecnologia somos apaixonados pela ideia de um mundo mais sustentável, limpo e inclusivo! Acima de tudo buscamos fazer a diferença nas regiões onde atuamos, pois somos uma empresa orientada para nossa missão de melhorar o meio ambiente global, promovendo o desenvolvimento local.",
+        "jobDescription": "Estamos buscando um(a) Estagiário(a) para apoiar a equipe nas atividades da área, tais como: Suporte em atividades operacionais do time de gestão; Preenchimento e controle de planilhas gerenciais; Participação em reuniões de projetos; Suporte e atuação junto aos GPs nos processos de estruturação do setor/interfaces.",
+        "jobRequirements": "Estudantes de graduação de Engenharia, ADS, Sistemas de Informação ou áreas relacionadas a tecnologia.",
+        "benefits": "Salário a combinar, Gympass, VR, plano de saúde, curso de inglês."
+      },
+      "location": "Belo Horizonte, Minas Gerais",
+      "jobType": "CLT | Remoto"
+    },
+    {
+      "company": {
+        "jobTitle": "Estágio Desenvolvimento",
+        "name": "Shopping Online",
+        "id": 9,
+        "logo": "assets/images/shopping-logo.png",
+        "description": "Na Shopping Online somos apaixonados pela ideia de um mundo mais sustentável, limpo e inclusivo! Acima de tudo buscamos fazer a diferença nas regiões onde atuamos, pois somos uma empresa orientada para nossa missão de melhorar o meio ambiente global, promovendo o desenvolvimento local.",
+        "jobDescription": "Estamos buscando um(a) Estagiário(a) para apoiar a equipe nas atividades da área, tais como: Suporte em atividades operacionais do time de gestão; Preenchimento e controle de planilhas gerenciais; Participação em reuniões de projetos; Suporte e atuação junto aos GPs nos processos de estruturação do setor/interfaces.",
+        "jobRequirements": "Estudantes de graduação de Engenharia, ADS, Sistemas de Informação ou áreas relacionadas a tecnologia.",
+        "benefits": "Salário a combinar, Gympass, VR, plano de saúde, curso de inglês."
+      },
+      "location": "Salvador, Bahia",
+      "jobType": "CLT | Presencial"
+    },
+    {
+      "company": {
+        "jobTitle": "Analista de Dados",
+        "name": "Indústrias Timmerman",
+        "id": 10,
+        "logo": "assets/images/timmer-logo.png",
+        "description": "Nós da Indústrias Timmerman somos apaixonados pela ideia de um mundo mais sustentável, limpo e inclusivo! Acima de tudo buscamos fazer a diferença nas regiões onde atuamos, pois somos uma empresa orientada para nossa missão de melhorar o meio ambiente global, promovendo o desenvolvimento local.",
+        "jobDescription": "Como Analista de Dados você será responsável por: Trabalhar em conjunto com o time de Operações, vislumbrando identificar e implementar oportunidades de melhoria contínua e automação, com o intuito de fornecer uma experiência mais ágil, simples e com qualidade aos times internos e clientes; Fornecer informações e relatórios à gestão para apoiar no gerenciamento e tomada de decisão.",
+        "jobRequirements": "Experiência com ferramentas de visualização: tableau e Power BI; Conhecimentos de SQL, Python e/ou R; Experiência com RPAs (Power Automate, Phyton, UiPath, Automation Anywhere e/ou Kryon);inglês avançado.",
+        "benefits": "Salário a combinar, Gympass, VR, plano de saúde, curso de inglês."
+      },
+      "location": "Manaus, Amazonas",
+      "jobType": "CLT | Presencial"
     }
   ]
 }
